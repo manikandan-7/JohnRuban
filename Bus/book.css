@@ -1,0 +1,115 @@
+body{
+    width: 100%;
+    background-image: url('bus.jpg')
+}
+.mainbody{
+    width: 30%;
+    background: rgba(36, 36, 36, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    margin: 70px;
+    margin-top: 80px;
+}
+
+.dest{
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    background: rgba(36, 36, 36, 0.7);
+    padding: 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+    margin: 70px;
+    margin-top: 80px;
+    display: flex;
+    float: left;
+}
+.mainbook{
+    width: 100%;
+}
+.name{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+select {
+    margin-left: 60px;
+    width:220px;
+    height: 30px;
+    padding-left: 10px;
+}
+option{
+    margin-left: 60px;
+    width:220px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.center{
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    background: transparent;
+    padding: 40px;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    float: left;
+    min-height: 0px;
+
+}
+
+.busseats{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.busfeed{
+    margin-bottom: 20px;
+    width: 160%;
+
+}
+.busfeed button{
+    color: #fff;
+    background-color:lightslategray;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: px;
+    width: 50%;
+
+}
+.feedstatus{
+    color: white;
+    margin-left: 15px;
+    
+}
+.bus1feed{
+    margin-bottom: 20px;
+    width: 160%;
+
+}
+.bus1feed button{
+    color:white;
+    background-color:lightslategray;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    margin: 40px;
+    margin-top: -16px;
+    width: 50%;
+}
+
+.feedstatus{
+    color: white;
+    margin-left: 15px;
+}

@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    background-image: url('bus.jpg')
+}
+.mainbody{
+    width: 30%;
+    background: rgba(36, 36, 36, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    margin: 70px;
+    margin-top: 80px;
+
+}
+
+.busfeed{
+    margin-bottom: 20px;
+    width: 160%;
+
+}
+.busfeed>a>button{
+    color: #fff;
+    background-color:lightslategray;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    width: 60%;
+
+}
+    
+.feedstatus{
+    color: white;
+    margin-left: 15px;
+    
+}
+.name{
+    color: white;
+    margin-bottom: 20px;
+}
+.name>input{
+    margin-top: 10px;
+    margin-left: 60px;
+    width:220px;
+    height: 30px;
+    padding-left: 10px;
+}

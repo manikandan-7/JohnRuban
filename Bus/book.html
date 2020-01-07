@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="feed.js"></script>
+
+        <link rel="icon" href="#">
+        <title>Feed</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="book.css" />    
+    </head>
+
+    <body onload="bookcall()">
+        <div class="mainbook">
+            <div class="dest">
+                <div class="name">
+                    Source :
+                </div>
+                <div class="select">
+                    <select id="selectsource">
+                        <option style="display: none;"></option>
+                    </select>
+                    
+                </div>
+                <div class="name"> 
+                    Destination :
+                </div>
+                <div class="select">
+                    <select id="selectdest" onclick="selectbus()">
+                        <option style="display: none;"></option>
+                    </select>
+                    
+                </div>
+                <div class="name">
+                    Bus :
+                </div>
+                <div class="selectbus select">
+                    <select id="selectbus" onclick="pickup()">
+                        <option style="display: none;"></option>
+                    </select>
+                   
+                </div>
+
+            <div class="right">
+                <div class="name">
+                    Pickup : 
+                </div>
+                <div class="select">
+                    <select id="pickup">
+
+                    </select>
+                </div>
+                <div class="name">
+                    Drop  &nbsp;&nbsp;:
+                </div>
+                <div class="select" >
+                    <select id="drop">
+
+                    </select>
+
+                </div>
+                <div>
+                    <a href="view.html"><button onclick="preview()" >Preview</button></a>
+                </div>
+                <div>
+                    <a href="bus.html"><button>Go Home</button></a>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="busseats" id="busseats">
+                   
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

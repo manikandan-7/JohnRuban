@@ -1,0 +1,42 @@
+.mainbody{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+body{
+    width: 100%;
+    font-family: sans-serif; 
+    font-family: 'PT Sans', sans-serif;
+    background-image: url('bus.jpg');
+    background-size: cover;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.confirm{
+    display: inline-block;
+    margin-left: 75%;
+}
+.footer{
+    display: flex;
+}
+.name{
+    color: white;
+    margin-bottom: 15px;
+}
+.type{
+    margin-left: 60px;
+    width:220px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: deeppink;
+}
